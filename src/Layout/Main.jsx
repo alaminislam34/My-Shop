@@ -8,7 +8,7 @@ const Main = () => {
     <div>
       <NavTop />
       <NavBar />
-      <search className="max-w-7xl mx-auto">
+      <search className="max-w-7xl mx-auto min-h-screen">
         <Outlet />
       </search>
       <Footer />
